@@ -1,0 +1,15 @@
+{
+  "name": "crowdfunding-oracle",
+  "version": "1.0.0",
+  "description": "Oracle bridge between AI Risk Service and Smart Contracts",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "simulate": "node scripts/simulate.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.11.1"
+  }
+}
